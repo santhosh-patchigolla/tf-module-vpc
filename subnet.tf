@@ -18,4 +18,4 @@ resource "aws_subnet" "public_subnet" {
 
 #cidr_block = element(var.PUBLIC_SUBNET_CIDR, count.index) this is called the function count peddlling paramenters..and the this picking from the terrafrom-vpc/env-dev/dev.tfvars
 
-# removed unwanted lines
+# removed unwanted lines...
