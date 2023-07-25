@@ -5,7 +5,7 @@ resource "aws_subnet" "public_subnet" {
   cidr_block                = element(var.PUBLIC_SUBNET_CIDR, count.index)
 
   tags = {
-    Name                    = "roboshop-${ENV}-public-subnet-${element(var.AZ, count.index)}"
+    Name                    = "roboshop-${var.ENV}-public-subnet-${element(var.AZ, count.index)}"
   }
 }
 
