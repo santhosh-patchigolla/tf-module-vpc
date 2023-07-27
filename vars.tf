@@ -3,6 +3,7 @@ variable "ENV" {}
 variable "AZ" {}
 variable "PUBLIC_SUBNET_CIDR" {}
 variable "PRIVATE_SUBNET_CIDR" {}
+variable "DEFAULT_VPC_ID" {}
 
 
 # added the values
