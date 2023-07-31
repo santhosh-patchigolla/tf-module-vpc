@@ -9,3 +9,4 @@ So, how are we going to pass this information between two different statefiles.
 * Once you print something as an output, that information will also be recorded on the STATEFILE.
 
 * Once something is recored in the statefile, other resources can access it by using "terraform remote state datasource"
+
