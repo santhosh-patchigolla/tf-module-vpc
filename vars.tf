@@ -13,4 +13,4 @@ variable "PRIVATE_HOSTED_ZONE_ID" {}
 variable "PUBLIC_HOSTED_ZONE_NAME" {}
 variable "PUBLIC_HOSTED_ZONE_ID" {}
 
-# added the values
+# added the values.
